@@ -4,7 +4,7 @@ body, html {
 }
 
 .container {
-	background-image: url('../../Bilder/room.jpg'); 
+	background-image: url('https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
 	background-repeat: no-repeat; 
 	background-size: cover;
 	height: 100vh; 
