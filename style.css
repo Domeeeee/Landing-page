@@ -1,0 +1,123 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-image: url('../../Bilder/room.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 100vh; 
+	opacity: 0.86;
+}
+
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+	color: #fff; 
+}
+
+#navigation ul a:hover {
+	color: #000;
+}
+
+#navigation a {
+	color: #fff;
+	text-decoration: none; 
+}
+
+#navigation span {
+	color: #000;
+	font-size: 18pt;
+}
+
+#navigation span:hover {
+	color: #fff;
+}
+
+
+
+/* grid nav start*/ 
+
+#grid-nav {
+	display: grid;
+	grid-template-columns: 250px 150px 110px 55px 100px 1fr 90px 0px; 
+	margin-top: 30px; 
+}
+
+#grid-nav span {
+	background: #fff;
+	padding: 30px; 
+}
+
+/* hover start */
+#grid-nav span:hover {
+	background: #000;
+}
+
+#grid-nav li {
+	margin-top: 5px;
+	padding-top: 25px; 
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.1em; 
+}
+
+
+/* text in pic*/
+
+.ptext {
+	font-size: 32pt;
+	color: #fff; 
+	margin: 4em 6em 0 5em; 
+	font-family: 'Lora', serif;
+	letter-spacing: 0.15px; 
+}
+
+
+/* footer start*/
+
+.wrap {
+	display: grid;
+	grid-template-columns: 700px 600px; 
+	margin: 8em 0 5em 0;
+
+}
+
+
+.box-a {
+	text-align: left;
+	margin: 0 0 0 25%;  
+}
+
+.box-a p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 10pt;
+	margin-left: 3.5px; 
+}
+
+.box-a h3 {
+	font-size: 32pt;
+	font-weight: 300;
+	margin: 19px 0 0 0; 
+}
+
+
+.box-b {
+	margin: 3em 0 0 0; 
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 10pt;
+	line-height: 25px; 
+}
+
+
+
+
+
+
+
+
+
+
